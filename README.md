@@ -49,3 +49,7 @@ Once the Docker containers are up and running, the application will be accessibl
 - docker build -t express-docker-app .
 - docker run -p 3000:3000 express-docker-app
 - docker-compose up
+
+## Azure
+
+I installed the Docker to a Azure server, otherwise the process was the same as with the local installation.
