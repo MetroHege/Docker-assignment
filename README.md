@@ -39,3 +39,13 @@ Once the Docker containers are up and running, the application will be accessibl
   ```sh
   curl http://localhost:3000/api
   ```
+
+## Commands used:
+
+mkdir express-docker-app
+cd express-docker-app
+npm init -y
+npm install express
+docker build -t express-docker-app .
+docker run -p 3000:3000 express-docker-app
+docker-compose up
