@@ -39,7 +39,3 @@ Once the Docker containers are up and running, the application will be accessibl
   ```sh
   curl http://localhost:3000/api
   ```
-
-## License
-
-This project is licensed under the MIT License.
